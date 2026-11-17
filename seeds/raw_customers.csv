@@ -1,0 +1,61 @@
+customer_id,customer_name,segment,region
+C001,Client 001,Collectivité,Île-de-France
+C002,Client 002,Installateur,Pays de la Loire
+C003,Client 003,Collectivité,Île-de-France
+C004,Client 004,Installateur,Pays de la Loire
+C005,Client 005,Revendeur,Bretagne
+C006,Client 006,Revendeur,Bretagne
+C007,Client 007,Collectivité,Centre-Val de Loire
+C008,Client 008,Collectivité,Centre-Val de Loire
+C009,Client 009,Installateur,Pays de la Loire
+C010,Client 010,Installateur,Bretagne
+C011,Client 011,Installateur,Île-de-France
+C012,Client 012,Industrie,Nouvelle-Aquitaine
+C013,Client 013,Industrie,Pays de la Loire
+C014,Client 014,Revendeur,Île-de-France
+C015,Client 015,Installateur,Île-de-France
+C016,Client 016,Industrie,Bretagne
+C017,Client 017,Installateur,Île-de-France
+C018,Client 018,Collectivité,Centre-Val de Loire
+C019,Client 019,Industrie,Bretagne
+C020,Client 020,Industrie,Bretagne
+C021,Client 021,Collectivité,Pays de la Loire
+C022,Client 022,Industrie,Île-de-France
+C023,Client 023,Collectivité,Bretagne
+C024,Client 024,Revendeur,Bretagne
+C025,Client 025,Installateur,Nouvelle-Aquitaine
+C026,Client 026,Installateur,Nouvelle-Aquitaine
+C027,Client 027,Industrie,Bretagne
+C028,Client 028,Collectivité,Île-de-France
+C029,Client 029,Revendeur,Bretagne
+C030,Client 030,Industrie,Pays de la Loire
+C031,Client 031,Industrie,Nouvelle-Aquitaine
+C032,Client 032,Revendeur,Île-de-France
+C033,Client 033,Installateur,Île-de-France
+C034,Client 034,Revendeur,Centre-Val de Loire
+C035,Client 035,Collectivité,Centre-Val de Loire
+C036,Client 036,Revendeur,Pays de la Loire
+C037,Client 037,Installateur,Île-de-France
+C038,Client 038,Industrie,Centre-Val de Loire
+C039,Client 039,Revendeur,Pays de la Loire
+C040,Client 040,Installateur,Centre-Val de Loire
+C041,Client 041,Collectivité,Île-de-France
+C042,Client 042,Revendeur,Nouvelle-Aquitaine
+C043,Client 043,Installateur,Nouvelle-Aquitaine
+C044,Client 044,Industrie,Île-de-France
+C045,Client 045,Installateur,Nouvelle-Aquitaine
+C046,Client 046,Installateur,Centre-Val de Loire
+C047,Client 047,Industrie,Île-de-France
+C048,Client 048,Collectivité,Pays de la Loire
+C049,Client 049,Revendeur,Centre-Val de Loire
+C050,Client 050,Revendeur,Pays de la Loire
+C051,Client 051,Revendeur,Centre-Val de Loire
+C052,Client 052,Revendeur,Nouvelle-Aquitaine
+C053,Client 053,Revendeur,Nouvelle-Aquitaine
+C054,Client 054,Revendeur,Centre-Val de Loire
+C055,Client 055,Industrie,Bretagne
+C056,Client 056,Collectivité,Nouvelle-Aquitaine
+C057,Client 057,Industrie,Centre-Val de Loire
+C058,Client 058,Revendeur,Nouvelle-Aquitaine
+C059,Client 059,Installateur,Île-de-France
+C060,Client 060,Revendeur,Bretagne

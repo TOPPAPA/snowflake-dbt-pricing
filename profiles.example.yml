@@ -1,0 +1,16 @@
+# Copier ce fichier dans ~/.dbt/profiles.yml (uniquement si tu utilises dbt Core en local).
+# Avec dbt Cloud, la connexion se configure dans l'interface : ce fichier est inutile.
+pricing_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "<identifiant_compte>"     # ex. abc12345.eu-west-1 (visible dans Snowsight > Account)
+      user: "DBT_USER"
+      authenticator: snowflake_jwt         # authentification par paire de clés (voir README)
+      private_key_path: "~/.ssh/snowflake_dbt_key.p8"
+      role: "TRANSFORMER"
+      warehouse: "TRANSFORMING_WH"
+      database: "PRICING_DB"
+      schema: "dev"
+      threads: 4

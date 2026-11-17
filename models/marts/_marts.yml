@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: dim_products
+    description: "Produits avec leur prix catalogue actuel et leur taux de marge théorique."
+    columns:
+      - name: product_id
+        data_tests: [unique, not_null]
+      - name: current_list_price
+        data_tests: [not_null]
+
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+
+  - name: fct_sales
+    description: "Une ligne par vente, avec prix catalogue, prix payé, coût, CA, marge et remise."
+    columns:
+      - name: order_id
+        data_tests: [unique, not_null]
+      - name: list_price
+        description: "Prix catalogue en vigueur à la date de commande."
+        data_tests: [not_null]
+      - name: revenue
+        data_tests: [not_null]
+
+  - name: mart_margin_monthly
+    description: "CA, marge et remise moyenne par mois et par catégorie : la table à brancher sur Power BI."

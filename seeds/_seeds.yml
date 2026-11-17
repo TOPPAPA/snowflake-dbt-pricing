@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: raw_products
+    description: "Catalogue produits du distributeur fictif NordElec (données brutes)."
+  - name: raw_price_history
+    description: "Historique des prix catalogue : un prix est valable à partir de valid_from jusqu'au changement suivant."
+  - name: raw_customers
+    description: "Clients avec leur segment et leur région."
+  - name: raw_sales
+    description: "Lignes de commande : quantité et prix unitaire réellement payé (après remise)."
